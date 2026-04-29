@@ -8,14 +8,18 @@
     <title>Document</title>
 </head>
 <body>
-      <section class=" h-screen bg-gray-800 " id="main-bg">
-    <div class="bg-gray-900  rounded-2xl shadow-2xl w-90 relative left-[35%] top-[30%]" id="main-box">
+      <section class="min-h-screen bg-gray-800 flex items-center justify-center px-4">
+    
+    <div class="bg-gray-900 rounded-2xl shadow-2xl w-full max-w-sm p-5">
+        
         <input  
-        type="text" 
-        id="display"
-        class=" w-full text-white text-right text-2xl rounded-lg p-2 mb-4 bg-gray-700"
+            type="text" 
+            id="display"
+            class="w-full text-white text-right text-2xl sm:text-3xl rounded-lg p-3 mb-4 bg-gray-700"
         >
-        <div class=" grid grid-cols-4 gap-4">
+
+        <div class="grid grid-cols-4 gap-3 sm:gap-4">
+            
             <button class="btn bg-red-500 text-white">AC</button>
             <button class="btn bg-yellow-500 text-white">DEL</button>
             <button class="btn bg-blue-500 text-white">%</button>
@@ -26,7 +30,7 @@
             <button class="btn text-white">7</button>
             <button class="btn bg-blue-500 text-white">+</button>
 
-            <button class="btn text-white" data-value="6" >6</button>
+            <button class="btn text-white">6</button>
             <button class="btn text-white">5</button>
             <button class="btn text-white">4</button>
             <button class="btn bg-blue-500 text-white">x</button>
@@ -36,12 +40,14 @@
             <button class="btn text-white">1</button>
             <button class="btn bg-blue-500 text-white">-</button>
             
-            <button class=" btn col-span-2 text-white">0</button>
+            <button class="btn col-span-2 text-white">0</button>
             <button class="btn text-white">.</button>
             <button class="btn bg-green-500 text-white">=</button>
+
         </div>
     </div>
-    </section>
+
+</section>
 
 
      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>

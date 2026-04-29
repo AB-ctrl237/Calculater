@@ -1,0 +1,16 @@
+{
+  "name": "My Pro Calculator",
+  "short_name": "Calculator",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "assets/media/Calculator - Navy Blue Icon.jfif",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

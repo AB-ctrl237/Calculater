@@ -5,3 +5,8 @@
 .btn:active {
   transform: scale(0.95);
 }
+#dev {
+  text-align: center;
+  color: white;
+  font-size: 8px;
+}
